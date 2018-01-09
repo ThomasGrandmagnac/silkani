@@ -116,7 +116,12 @@ $nav-primary-height: 30px;
         display: block;
         color: $c-text;
         line-height: $nav-primary-height;
-        font-family: $f-stack-special;
+        font-family: $f-stack-source;
+        font-size: $f-size-xs;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     li {

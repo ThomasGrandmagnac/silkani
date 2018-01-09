@@ -3484,7 +3484,11 @@ a.skip-link {
   display: block;
   color: #636363;
   line-height: 30px;
-  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+}
+.nav-primary a:hover {
+  text-decoration: underline;
 }
 .nav-primary li {
   position: relative;
